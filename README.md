@@ -11,19 +11,5 @@ Run in terminal:
 python train.py --prefix "2023-11-20-" -n 200
 ```
 
-数据集存放格式：
-im2latex100k  
-│  
-├── formula_images_processed  
-│   │  
-│   ├──.png  
-│  
-├── im2latex_formulas.norm.csv  
-│  
-├── im2latex_train.csv  
-│  
-├── im2latex_test.csv  
-│  
-├── im2latex_validate.csv  
-│  
-└── tokens.txt  
+数据集存放格式：  
+<img width="175" alt="image" src="https://github.com/FFernnnL/IMAGE2LATEX/assets/142765700/213d962b-1f08-4522-9830-a677f6fd375e"> 
