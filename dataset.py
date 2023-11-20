@@ -9,11 +9,11 @@ END = "<EOS>"
 PAD = "<PAD>"
 SPECIAL_TOKENS = [START, END, PAD]
 
-tokens_file = "./im2latex100k/tokens.txt"  # 替换为你的标记文件路径
-groundtruth_train = "./im2latex100k/im2latex_train.csv"  # 替换为训练集的标注文件路径
-groundtruth_val = "./im2latex100k/im2latex_validate.csv"  # 替换为验证集的标注文件路径
-groundtruth_test = "./im2latex100k/im2latex_test.csv"  # 替换为测试集的标注文件路径
-image_folder = "./im2latex100k/formula_images_processed/"  # 替换为图像文件夹路径
+tokens_file = "D:/Code_conda/IMAGE2LATEX/im2latex100k/tokens.txt"  # 替换为你的标记文件路径
+groundtruth_train = "D:/Code_conda/IMAGE2LATEX/im2latex100k/im2latex_train.csv"  # 替换为训练集的标注文件路径
+groundtruth_val = "D:/Code_conda/IMAGE2LATEX/im2latex100k/im2latex_validate.csv"  # 替换为验证集的标注文件路径
+groundtruth_test = "D:/Code_conda/IMAGE2LATEX/im2latex100k/im2latex_test.csv"  # 替换为测试集的标注文件路径
+image_folder = "D:/Code_conda/IMAGE2LATEX/im2latex100k/formula_images_processed/"  # 替换为图像文件夹路径
 
 # There are so many symbols (mostly escape sequences) that are in the test sets but not
 # in the training set.

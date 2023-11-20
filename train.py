@@ -38,10 +38,10 @@ teacher_forcing_ratio = 0.5
 seed = 1234
 
 
-gt_train = "./im2latex100k/im2latex_train.csv"
-gt_validation = "./im2latex100k/im2latex_validate.csv"
-tokensfile = "./im2latex100k/tokens.txt"
-root = "./im2latex100k/formula_images_processed/"
+gt_train = "D:/Code_conda/IMAGE2LATEX/im2latex100k/im2latex_train.csv"
+gt_validation = "D:/Code_conda/IMAGE2LATEX/im2latex100k/im2latex_validate.csv"
+tokensfile = "D:/Code_conda/IMAGE2LATEX/im2latex100k/tokens.txt"
+root = "D:/Code_conda/IMAGE2LATEX/im2latex100k/formula_images_processed/"
 
 
 use_cuda = torch.cuda.is_available()
